@@ -1,0 +1,24 @@
+diff --git a/robotics/ocs2_pinocchio/ocs2_self_collision/CMakeLists.txt b/robotics/ocs2_pinocchio/ocs2_self_collision/CMakeLists.txt
+index 3a45174af..bbc8149a4 100644
+--- a/robotics/ocs2_pinocchio/ocs2_self_collision/CMakeLists.txt
++++ b/robotics/ocs2_pinocchio/ocs2_self_collision/CMakeLists.txt
+@@ -7,6 +7,7 @@ set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
+ 
+ set(dependencies
+         ocs2_pinocchio_interface
++        hpp-fcl
+ )
+ 
+ # Include the FindPkgConfig module
+diff --git a/robotics/ocs2_pinocchio/ocs2_sphere_approximation/CMakeLists.txt b/robotics/ocs2_pinocchio/ocs2_sphere_approximation/CMakeLists.txt
+index e6767d4e4..f6e22aa9d 100644
+--- a/robotics/ocs2_pinocchio/ocs2_sphere_approximation/CMakeLists.txt
++++ b/robotics/ocs2_pinocchio/ocs2_sphere_approximation/CMakeLists.txt
+@@ -8,6 +8,7 @@ set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
+ set(dependencies
+         ocs2_pinocchio_interface
+         ocs2_robotic_assets
++        hpp-fcl
+ )
+ 
+ find_package(ament_cmake REQUIRED)
